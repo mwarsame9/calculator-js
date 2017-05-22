@@ -16,7 +16,7 @@ $(document).ready(function() {
     } else if (operator == "divide") {
       $("#solution").text(newCalculator.divide(a,b));
     } else  {
-      alert("Please select a valid operator.");
+      $("#solution").text("Please select a valid operator.");
     }
   });
   });
